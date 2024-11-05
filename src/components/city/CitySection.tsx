@@ -49,14 +49,9 @@ const CitySection: React.FC<CitySectionProps> = ({
                 </div>
                 <button
                   onClick={() => onRemovePerson(city, person.id)}
-                  className="mt-2 p-1 text-white border rounded"
+                  className="mt-2 p-1 text-white  "
                 >
-                  <img
-                    src="/public/trash.svg"
-                    alt="remove"
-                    height={20}
-                    width={20}
-                  />
+                  &#128465;
                 </button>
               </div>
             ))}

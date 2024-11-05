@@ -16,6 +16,7 @@
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks",
-    "types": "@/types"
+    "types": "@/types",
+    "assets": "@/assets"
   }
 }

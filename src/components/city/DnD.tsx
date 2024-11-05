@@ -51,7 +51,7 @@ export const DraggableItem: React.FC<DraggableItemProps> = ({ id, person }) => {
       }`}
     >
       <button {...listeners} className="cursor-grab p-1">
-        <img src="/public/grip.svg" alt="drag" height={20} width={20} />
+        &#128722;
       </button>
       <div>
         {person.name}
